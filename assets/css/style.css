@@ -1,0 +1,89 @@
+/* Credits to @author - https://github.com/AVS1508/My-Alternate-Portfolio-Website */
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+@import url(https://fonts.googleapis.com/css?family=Rubik);
+/* ---- particles.js container ---- */
+
+#particles-js {
+    /*background-color: #050d9e;*/
+    background: #050d9e;
+    /* background: #1488CC; */
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #050d9e, #8f3a97);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #050d9e, #8f3a97);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    vertical-align: bottom;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
+
+.header {
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    /* font-family: 'Rubik', sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.header .site-title {
+    font-size: 70px;
+    display: block;
+    line-height: 1;
+    color: #fff;
+}
+
+@media only screen and (min-width:550px) {
+    .header .site-title {
+        margin: 0;
+        /* font-size: 100px */
+    }
+}
+
+.header .site-description {
+    font-size: 40px;
+    display: block;
+    line-height: 1;
+    color: #fff;
+    margin-top: 10px
+}
+
+@media only screen and (min-width:550px) {
+    .header .site-description {
+        /* font-size: 40px */
+        margin: 0;
+    }
+}
+
+.fa {
+    /* padding: 20px; */
+    color: white;
+    border-radius: 50px;
+    border-style: solid;
+    box-shadow: 0px 0px 2px rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0.5em 0.5em;
+    transition: all;
+    width: 32px;
+}
+
+.header-icons .icon:hover {
+    color: #1488CC;
+    background: #fff
+}
