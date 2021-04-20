@@ -14,7 +14,7 @@ body {
     font-size: 100%;
     line-height: 1.5;
     color: #555;
-    font-family: 'Nunito Sans', sans-serif
+    font-family: 'Times New Roman', Times, serif;
 }
 
 article,
@@ -4821,11 +4821,20 @@ a img {
 }
 
 #particles-js {
+    /* Background by AVS */
     background: #1488CC;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2B32B2, #1488CC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* Background by Rohit */
+    background: #050d9e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #050d9e, #8f3a97);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #050d9e, #8f3a97);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
@@ -4847,8 +4856,8 @@ a img {
     text-align: center;
     color: #fff;
     position: absolute;
-    font-family: 'Rubik', sans-serif;
-    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
     top: 50%;
     left: 50%;
     margin: 0 auto;
